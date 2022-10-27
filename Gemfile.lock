@@ -261,6 +261,7 @@ DEPENDENCIES
   hawkins
   jekyll-feed
   jekyll-sitemap
+  tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1.0)
   webrick (~> 1.7)
