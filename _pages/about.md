@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a master graduate student of School of Artificial Intelligence, Optics and Electronics (iOPEN) (opens new window)at Northwestern Polytechnic University (opens new window), supervised by [Qi Wang](https://www.hust.edu.cn/) and (Xuelong Li)(https://www.hust.edu.cn/) professors, collaborating with (Junyu Gao)(https://www.hust.edu.cn/). I received Bachelor degree at [School of Information Engineering](https://www.hust.edu.cn/), [China University of Geosciences (Wuhan)](https://www.hust.edu.cn/) in 2019. My research area includes computer vision, deep learning and image/video representation learning.
+I am a master graduate student of School of Artificial Intelligence, Optics and Electronics (iOPEN) (opens new window)at Northwestern Polytechnic University (opens new window), supervised by [Qi Wang](https://www.hust.edu.cn/) and [Xuelong Li](https://www.hust.edu.cn/) professors, collaborating with (Junyu Gao)(https://www.hust.edu.cn/). I received Bachelor degree at [School of Information Engineering](https://www.hust.edu.cn/), [China University of Geosciences (Wuhan)](https://www.hust.edu.cn/) in 2019. My research area includes computer vision, deep learning and image/video representation learning.
 
 I  worked on federated learning research at SenseTime by collaborating with [Weiming Zhuang](https://www.hust.edu.cn/) and Shuaicheng Li. After that, I was a Reasearch Assistant at The Hong Kong Polytechnic University and collaborated with Dr. [Jie Zhang](https://www.hust.edu.cn/).  Now, I'm pursuing my PhD degree at The Hong Kong University of Science and Technology. If you are interests in me, please send e-mail to me. Thanks a lot!
 
