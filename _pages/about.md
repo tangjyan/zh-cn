@@ -30,7 +30,7 @@ My research interest：
 <span class='anchor' id='-xl'></span>
 
 # 🎓 学历
-- *2024.01 - *, <a href="https://www.hust.edu.cn/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a> The Hong Kong University of Science and Technology, HongKong, PhD 
+- *2024.01 -*, <a href="https://www.hust.edu.cn/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a> The Hong Kong University of Science and Technology, HongKong, PhD 
 - *2019.09 - 2022.04*, <a href="https://www.hust.edu.cn/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a>  Northwestern Polytechnic University, Xi'an, Master 
 - *2015.09 - 2019.06*, <a href="https://www.scu.edu.cn/"><img class="svg" src="/images/SCU_logo.svg" width="20pt"></a> China University of Geosciences, Wuhan, Bachelor
  
