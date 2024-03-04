@@ -17,25 +17,21 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-我将博士毕业于湖北武汉的 华中科技大学 机械科学与工程学院，我的导师是康宜华教授。本科毕业于四川成都的 四川大学 制造科学与工程学院（现机械工程学院）。包括合著，我已经发表 20+ 篇学术论文
- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
+I am a master graduate student of School of Artificial Intelligence, Optics and Electronics (iOPEN) (opens new window)at Northwestern Polytechnic University (opens new window), supervised by Qi Wang <a href="https://www.hust.edu.cn/"> and Xuelong Li  <a href="https://www.hust.edu.cn/"> professors, collaborating with Junyu Gao <a href="https://www.hust.edu.cn/">. I received Bachelor degree at School of Information Engineering <a href="https://www.hust.edu.cn/">, China University of Geosciences (Wuhan) <a href="https://www.hust.edu.cn/"> in 2019. My research area includes computer vision, deep learning and image/video representation learning.
 
-我的研究领域包括：
-- 仪器仪表
-- 机械工程
-- 电磁无损检测
-- 漏磁检测
-- 涡流检测
-- 磁传感器
-- 无损检测装备开发
-  
+I  worked on federated learning research at SenseTime by collaborating with Weiming Zhuang <a href="https://www.hust.edu.cn/"> and Shuaicheng Li. After that, I was a Reasearch Assistant on The Hong Kong Polytechnic University.  Now, I'm pursuing my PhD degree in The Hong Kong University of Science and Technology. If you are interests in me, please send e-mail to me. Thanks a lot!
+
+My research interest：
+- Vision Language Model
+- Federated Learning
+- Computer Vision
 
 
 <span class='anchor' id='-xl'></span>
 
 # 🎓 学历
 - *2016.06 - 2022.12*, <a href="https://www.hust.edu.cn/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a> 华中科技大学 机械科学与工程学院, 湖北武汉, 推免直博 
-- *2012.09 - 2016.06*, <a href="https://www.scu.edu.cn/"><img class="svg" src="/images/SCU_logo.svg" width="20pt"></a> 四川大学 制造科学与工程学院, 四川成都, 本科
+- *2015.09 - 2019.06*, <a href="https://www.scu.edu.cn/"><img class="svg" src="/images/SCU_logo.svg" width="20pt"></a> 中国地质大学 制造科学与工程学院, 四川成都, 本科
  
 <span class='anchor' id='-lwzl'></span>
 
