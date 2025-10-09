@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "唐健"
-description              : "电磁无损检测"
-repository               : "tangjyan/tangjyan.github.io"
+title                    : "李海铭"
+description              : "社会认知神经科学"
+repository               : "Llihaiming/Psy-LiHaiming.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
