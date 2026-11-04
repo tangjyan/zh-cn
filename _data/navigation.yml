@@ -17,3 +17,23 @@ main:
 
   - title: "工作实习"
     url: "/#-gzsx"
+
+# English page navigation
+en:
+  - title: "About"
+    url: "/en/#about-me"
+
+  - title: "Education"
+    url: "/en/#education"
+
+  - title: "Publications"
+    url: "/en/#publications"
+
+  - title: "Honors"
+    url: "/en/#honors"
+
+  - title: "Conferences"
+    url: "/en/#conferences"
+
+  - title: "Internships"
+    url: "/en/#internships"

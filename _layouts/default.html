@@ -2,8 +2,9 @@
 layout: compress
 ---
 
+{% assign is_en = false %}{% if page.lang == "en" %}{% assign is_en = true %}{% endif %}
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="{% if is_en %}en{% else %}zh-CN{% endif %}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
@@ -16,7 +17,7 @@ layout: compress
 
     <div id="main" role="main">
       {% include sidebar.html %}
-    
+
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
@@ -27,16 +28,18 @@ layout: compress
       </article>
     </div>
 
-    {% include scripts.html %}
+    <footer class="footer_site">
+      <div class="footer_copyright">
+        {% if is_en %}
+        © {{ site.time | date: "%Y" }} Xiaohu Zhang · USTC &nbsp;|&nbsp; Built on the
+        <a class="page_a" href="https://github.com/RayeRen/acad-homepage.github.io">acad-homepage</a> template
+        {% else %}
+        © {{ site.time | date: "%Y" }} 中国科大 · 张晓虎 &nbsp;|&nbsp; 基于
+        <a class="page_a" href="https://github.com/RayeRen/acad-homepage.github.io">acad-homepage</a> 模板
+        {% endif %}
+      </div>
+    </footer>
 
-<div class="footer_site">
-<hr/>
-<div class="footer_copyright">
-  © 2025 中国科大 · 张晓虎 | 基于&nbsp
-  <a class="page_a"  href="https://github.com/RayeRen/acad-homepage.github.io">
-  acad
-  </a>&nbsp模板
-</div>
-</div>
+    {% include scripts.html %}
   </body>
 </html>

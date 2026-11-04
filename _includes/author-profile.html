@@ -1,29 +1,40 @@
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
+{% if page.lang == "en" %}
+  {% assign p_name = author.name_en | default: author.name %}
+  {% assign p_bio = author.bio_en | default: author.bio %}
+  {% assign p_location = author.location_en | default: author.location %}
+  {% assign p_desc = author.description_en | default: site.description %}
+{% else %}
+  {% assign p_name = author.name %}
+  {% assign p_bio = author.bio %}
+  {% assign p_location = author.location %}
+  {% assign p_desc = site.description %}
+{% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{{ author.avatar | relative_url }}" alt="{{ p_name }}" width="175" height="175">
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h3 class="author__name">{{ p_name }}</h3>
+    {% if p_bio %}<p class="author__bio">{{ p_bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
+      {% if p_desc %}
+        <li class="author__desc">{{ p_desc }}</li>
       {% endif %}
-      {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+      {% if p_location %}
+        <li><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> {{ p_location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
+        <li><i class="fas fa-fw fa-building" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>

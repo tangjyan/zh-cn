@@ -1,17 +1,29 @@
+{% if page.lang == "en" %}
+  {% assign nav_links = site.data.navigation.en %}
+{% else %}
+  {% assign nav_links = site.data.navigation.main %}
+{% endif %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <button aria-label="Menu"><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
-            <a href="https://xiaohu97.github.io/engish/" target="_self">
-              <img class="svg" src="/images/en.svg" width="20pt"> 
+            {% if page.lang == "en" %}
+            <a href="{{ '/' | relative_url }}" class="lang-switch" lang="zh-CN">
+              <i class="fas fa-globe" aria-hidden="true"></i>
+              中文
+            </a>
+            {% else %}
+            <a href="{{ '/en/' | relative_url }}" class="lang-switch" lang="en">
+              <i class="fas fa-globe" aria-hidden="true"></i>
               English
             </a>
+            {% endif %}
           </li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% for link in nav_links %}
+            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -19,5 +31,3 @@
     </div>
   </div>
 </div>
-
-

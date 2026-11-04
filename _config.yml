@@ -22,14 +22,18 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "张晓虎"
-  avatar           : "images/张晓虎证件照2023.jpg"
+  avatar           : "/images/avatar.jpg"
   bio              : "中国科学技术大学"
   location         : "安徽 合肥"
+  name_en          : "Xiaohu Zhang"
+  bio_en           : "University of Science and Technology of China"
+  location_en      : "Hefei, Anhui, China"
+  description_en   : "Humanoid Loco-Manipulation & Motor Control"
   employer         : #"Hefei General Machinery Research Institute"
   pubmed           : 
   googlescholar    : "https://scholar.google.com.hk/citations?hl=zh-CN&user=_lZNOiUAAAAJ"
   email            : "ustc-zxh@mail.ustc.edu.cn"
-  researchgate     : ""
+  researchgate     :
   uri              : 
   bitbucket        :
   codepen          :
