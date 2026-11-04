@@ -1,7 +1,9 @@
 {% if page.lang == "en" %}
-  {% assign nav_links = site.data.navigation.en %}
+  {% assign nav_links = site.data.navigation.en | default: site.data.navigation.main %}
+  {% assign alt_lang_url = site.chinese_url | default: "/" %}
 {% else %}
   {% assign nav_links = site.data.navigation.main %}
+  {% assign alt_lang_url = site.english_url | default: "/en/" %}
 {% endif %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -11,12 +13,12 @@
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
             {% if page.lang == "en" %}
-            <a href="{{ '/' | relative_url }}" class="lang-switch" lang="zh-CN">
+            <a href="{{ alt_lang_url | relative_url }}" class="lang-switch" lang="zh-CN">
               <i class="fas fa-globe" aria-hidden="true"></i>
               中文
             </a>
             {% else %}
-            <a href="{{ '/en/' | relative_url }}" class="lang-switch" lang="en">
+            <a href="{{ alt_lang_url | relative_url }}" class="lang-switch" lang="en">
               <i class="fas fa-globe" aria-hidden="true"></i>
               English
             </a>

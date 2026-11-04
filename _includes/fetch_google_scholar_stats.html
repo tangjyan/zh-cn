@@ -1,9 +1,10 @@
 <script>
     $(document).ready(function () {
+        {% assign gs_repo = site.scholar_stats_repository | default: site.repository %}
         {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
+        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ gs_repo }}@'
         {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ gs_repo }}/'
         {% endif %}
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
             var totalCitation = data['citedby']
